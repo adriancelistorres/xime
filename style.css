@@ -1,6 +1,6 @@
 :root{
   --primary: #fff;
-  --bg-color: rgb(5, 53, 61);
+  --bg-color: rgb(203, 146, 218);
   --bg-envelope-color: #f5edd1;
   --envelope-tab: #ecdeb8;
   --envelope-cover: #e6cfa7;
@@ -76,8 +76,8 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   background: var(--heart-color);
   z-index: 4;
   transform: translate(-50%, -20%) rotate(45deg);
@@ -89,8 +89,8 @@ body{
 .heart:after {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   background-color: var(--heart-color);
   border-radius: 50%;
 }
@@ -112,4 +112,15 @@ body{
 .flap > .heart {
   transform: rotate(90deg);
   transition-delay: 0.4s;
+}
+
+
+a.button {
+
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  color: buttontext;
+  background-color: buttonface;
+  text-decoration: none;
 }
